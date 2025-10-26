@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Kylie Cosmetics - Cherry Collection</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header class="site-header">
+  <div class="container navwrap">
+    <div class="logo">KYLIE COSMETICS</div>
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#cart" id="cart-link">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-inner container">
+      <h1>The Cherry Collection</h1>
+      <p>Sweet, Seductive, and Bold. Discover the new look.</p>
+      <a class="btn" href="#shop">Shop Now</a>
+    </div>
+  </section>
+
+  <section style="text-align:center; margin:25px 0; font-size:20px; font-weight:600; color:#e84a5f;">Project by Hasini</section>
+
+  <section id="shop" class="container shop-section">
+    <h2>Featured Items</h2>
+
+    <div class="category">
+      <h3>Lips</h3>
+      <div class="products" id="lips-list"></div>
+    </div>
+
+    <div class="category">
+      <h3>Eyes</h3>
+      <div class="products" id="eyes-list"></div>
+    </div>
+
+    <div class="category">
+      <h3>Face</h3>
+      <div class="products" id="face-list"></div>
+    </div>
+  </section>
+
+  <section id="about" class="container about-section">
+    <h2>About Kylie Cosmetics</h2>
+    <p>Founded by beauty icon <strong>Kylie Jenner</strong>, <em>Kylie Cosmetics</em> redefines modern glam with bold, high-quality, and cruelty-free makeup products. From the signature Lip Kits that started a global craze to stunning blushes, liners, and palettes, every product is designed to help you express your confidence, creativity, and individuality.</p>
+    <p>Discover your look. Own your beauty. 💋</p>
+  </section>
+
+  <section id="cart" class="container cart-section">
+    <h2>Your Cart</h2>
+    <div id="cart-items"></div>
+    <div class="cart-total"><strong>Total:</strong> $<span id="cart-total">0.00</span></div>
+    <button id="checkout-btn" class="btn primary">Checkout</button>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>© 2025 Kylie Cosmetics Fan Site — Designed for demo purposes.</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
